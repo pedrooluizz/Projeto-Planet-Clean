@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_principal">
+
+    <fragment
+        android:id="@+id/nav_principal"
+        android:name="com.testecurso.planetclean.ui.Principal.PrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.testecurso.planetclean.ui.Sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_rastreamento"
+        android:name="com.testecurso.planetclean.ui.Rastreamento.RastreamentoFragment"
+        android:label="@string/menu_rastreamento"
+        tools:layout="@layout/fragment_rastreamento" />
+
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.testecurso.planetclean.ui.Contato.ContatoFragment"
+        android:label="@string/menu_contato"
+        tools:layout="@layout/fragment_contato" />
+
+</navigation>
